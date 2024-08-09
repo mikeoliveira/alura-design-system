@@ -49,39 +49,52 @@ button.primary:hover {
   color: var(--ab-white);
 }
 
-
 button.primary:active {
   background: var(--ab-click-color);
   color: var(--ab-white);
 }
-
 
 button.primary:disabled {
   background: var(--ab-disabled-bg);
   color: var(--ab-disabled-text);
 }
 
-
 button.secondary {
   background: var(--ab-quaternary-color);
   color: var(--ab-primary-color);
 }
-
 
 button.secondary:hover {
   background: var(--ab-hover-color);
   color: var(--ab-white);
 }
 
-
 button.secondary:active {
   background: var(--ab-click-color);
   color: var(--ab-white);
 }
-
 
 button.secondary:disabled {
   background: var(--ab-disabled-bg);
   color: var(--ab-disabled-text);
 }
 
+button.tertiary {
+  background: var(--ab-white);
+  color: var(--ab-primary-color);
+}
+
+button.tertiary:hover {
+  background: var(--ab-white);
+  color: var(--ab-hover-color);
+}
+
+button.tertiary:active {
+  background: var(--ab-white);
+  color: var(--ab-click-color);
+}
+
+button.tertiary:disabled {
+  background: var(--ab-white);
+  color: var(--ab-disabled-text);
+}
