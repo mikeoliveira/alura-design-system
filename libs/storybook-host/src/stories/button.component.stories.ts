@@ -9,5 +9,10 @@ export default meta;
 
 type Story = StoryObj<ButtonComponent>;
 
-export const PrimaryButton: Story = {};
+export const PrimaryButton: Story = {
+  args: {
+    text: 'Action'
+  }
+};
+
 export const SecondaryButton: Story = {};
