@@ -11,8 +11,30 @@ type Story = StoryObj<ButtonComponent>;
 
 export const PrimaryButton: Story = {
   args: {
-    text: 'Action'
+    text: 'Action',
+    variant: 'primary',
+    disabled: false
   }
 };
 
-export const SecondaryButton: Story = {};
+export const PrimaryButtonDisabled: Story = {
+  args: {
+    ...PrimaryButton.args,
+    disabled: true
+  }
+};
+
+export const SecondaryButton: Story = {
+  args: {
+    ...PrimaryButton.args,
+    variant: 'secondary',
+    disabled: false
+  }
+};
+
+export const SecondaryButtonDisabled: Story = {
+  args: {
+    ...SecondaryButton.args,
+    disabled: true
+  }
+};

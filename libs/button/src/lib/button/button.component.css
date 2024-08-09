@@ -43,3 +43,45 @@ button:disabled {
 button:focus {
   outline-color: var(--ab-color-focus, #af4bfe);
 }
+
+button.primary:hover {
+  background: var(--ab-hover-color);
+  color: var(--ab-white);
+}
+
+
+button.primary:active {
+  background: var(--ab-click-color);
+  color: var(--ab-white);
+}
+
+
+button.primary:disabled {
+  background: var(--ab-disabled-bg);
+  color: var(--ab-disabled-text);
+}
+
+
+button.secondary {
+  background: var(--ab-quaternary-color);
+  color: var(--ab-primary-color);
+}
+
+
+button.secondary:hover {
+  background: var(--ab-hover-color);
+  color: var(--ab-white);
+}
+
+
+button.secondary:active {
+  background: var(--ab-click-color);
+  color: var(--ab-white);
+}
+
+
+button.secondary:disabled {
+  background: var(--ab-disabled-bg);
+  color: var(--ab-disabled-text);
+}
+
