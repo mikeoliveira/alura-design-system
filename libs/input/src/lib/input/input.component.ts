@@ -10,4 +10,6 @@ import { CommonModule } from '@angular/common';
 })
 export class InputComponent {
   @Input() multiline = false;
+  @Input() label = '';
+  @Input() id = '';
 }
