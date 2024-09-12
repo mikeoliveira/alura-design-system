@@ -61,6 +61,16 @@
   background: var(--ab-disabled-bg, #efefef);
 }
 
+.input:disabled {
+  outline: 1px solid var(--ab-disabled-text, #8a8a8a);
+  background: var(--ab-disabled-bg, #efefef);
+}
+
+.input:disabled,
+.input-container:has(.input:disabled) .label {
+  cursor: not-allowed;
+}
+
 .violet {
   --ab-hover-color: #a530ff;
   --ab-focus-color: #2d5bff;

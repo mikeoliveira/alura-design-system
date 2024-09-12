@@ -12,6 +12,7 @@ export class InputComponent {
   @Input() multiline = false;
   @Input() label = '';
   @Input() id = '';
+  @Input() disabled = false;
 
   getContainerClasses(): string {
     let classes = 'input-container';

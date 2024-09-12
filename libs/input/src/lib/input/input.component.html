@@ -4,9 +4,9 @@
   }
   
   @if (!multiline) {
-    <input [id]="id" type="text" class="input" placeholder="Text">
+    <input [id]="id" type="text" class="input" placeholder="Text" [disabled]="disabled">
   
   } @else {
-    <textarea [id]="id" class="input" placeholder="Text"></textarea>
+    <textarea [id]="id" class="input" placeholder="Text" [disabled]="disabled"></textarea>
   }
 </div>
