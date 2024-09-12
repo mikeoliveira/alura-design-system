@@ -1,10 +1,12 @@
-@if (label) {
-  <label [for]="id">{{ label }}</label>
-}
-
-@if (!multiline) {
-  <input [id]="id" type="text" class="input" placeholder="Text">
-
-} @else {
-  <textarea [id]="id" class="input" placeholder="Text"></textarea>
-}
+<div [class]="getContainerClasses()">
+  @if (label) {
+    <label [for]="id" class="label">{{ label }}</label>
+  }
+  
+  @if (!multiline) {
+    <input [id]="id" type="text" class="input" placeholder="Text">
+  
+  } @else {
+    <textarea [id]="id" class="input" placeholder="Text"></textarea>
+  }
+</div>

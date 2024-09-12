@@ -12,4 +12,14 @@ export class InputComponent {
   @Input() multiline = false;
   @Input() label = '';
   @Input() id = '';
+
+  getContainerClasses(): string {
+    let classes = 'input-container';
+
+    if (this.label) {
+      classes += ' with-label';
+    }
+
+    return classes;
+  }
 }
