@@ -10,5 +10,14 @@ export default meta;
 type Story = StoryObj<InputComponent>;
 
 export const Primary: Story = {
-  args: {},
+  args: {
+    multiline: false,
+  },
+};
+
+export const Multiline: Story = {
+  args: {
+    ...Primary.args,
+    multiline: true,
+  },
 };
