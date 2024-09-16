@@ -1,3 +1,14 @@
+## 1.1.0 (2024-09-16)
+
+
+### 🚀 Features
+
+- **input:** adiciona JSDoc ([ef8f461](https://github.com/antonio-evaldo/4016-nx-monorepo-storybook-2/commit/ef8f461))
+
+### ❤️  Thank You
+
+- Antônio Evaldo @antonio-evaldo
+
 ## 1.0.1 (2024-09-16)
 
 
