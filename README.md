@@ -8,7 +8,9 @@ Monorepo criado para implementação do Design System da empresa fictícia Alfab
 
 ## 🔨 Funcionalidades do projeto
 
-A biblioteca de botão criada no monorepo (mono-repositório) pode ser visualizada em um servidor do Storybook, onde foi feita uma documentação interativa do componente. Além disso, a publicação da biblioteca de botão foi automatizada com o Nx Release.
+Atualmente, a biblioteca de botão criada no monorepo (mono-repositório) pode ser visualizada em um servidor do Storybook, onde foi feita uma documentação interativa do componente. Além disso, a publicação da biblioteca de botão foi automatizada com o Nx Release.
+
+Agora está na hora de evoluir a documentação do Storybook! Iremos trabalhar em um novo componente de input e evoluir a documentação de nossos componentes, utilizando MDX e outros recursos. Além disso, iremos melhorar a publicação automática do Nx Release.
 
 Acesse o [Figma do Design System](https://www.figma.com/community/file/1402315008064949507).
 
