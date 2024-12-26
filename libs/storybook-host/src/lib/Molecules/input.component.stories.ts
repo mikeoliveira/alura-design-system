@@ -10,3 +10,11 @@ type Story = StoryObj<InputComponent>;
 export const Primary: Story = {
   args: {},
 };
+
+
+export const Multiline: Story = {
+  args: {
+    ...Primary.args,
+    multiline: true
+  },
+};
