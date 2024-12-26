@@ -1,5 +1,9 @@
+@if (label) {
+    <label for="{{ id }}">{{ label }}</label>
+}
+
 @if (!multiline) {
-    <input type="text" placeholder="Text" class="input">
+    <input id="{{ id }}" type="text" placeholder="Text" class="input">
 } @else {
-    <textarea placeholder="Text" class="input"></textarea>
+    <textarea id="{{ id }}" placeholder="Text" class="input"></textarea>
 }
