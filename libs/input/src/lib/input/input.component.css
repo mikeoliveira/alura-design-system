@@ -1,3 +1,21 @@
+.input-container {
+    position: relative
+}
+
+.label {
+    position: absolute;
+    cursor: text;
+    margin-top: 0.375rem;
+    margin-left: 1rem;
+
+    color: var(--ab-texto-secundario, #5c5c5c);
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
 .input {
     box-sizing: border-box;
     display: flex;
@@ -20,6 +38,13 @@
     line-height: 1.125rem;
   }
   
+  .input-container.with-label > .input {
+    padding-top: 1.625rem;
+    padding-bottom: 0.375rem;
+  }
+
+
+
   .input::placeholder {
   }
   
@@ -32,9 +57,13 @@
   }
   
   .input:disabled {
-    cursor: not-allowed;
     outline: 1px solid var(--ab-disabled-text, #8a8a8a);
     background: var(--ab-disabled-bg, #efefef);
+  }
+  
+  .input:disabled,
+  .input-container:has(.input:disabled) .label {
+    cursor: not-allowed;
   }
   
   .violet {
