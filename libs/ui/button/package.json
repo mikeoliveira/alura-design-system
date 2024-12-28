@@ -1,6 +1,6 @@
 {
-  "name": "@alfabit-alura/button",
-  "version": "1.0.4",
+  "name": "@mike-oliveira-costa/button",
+  "version": "1.0.5",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
