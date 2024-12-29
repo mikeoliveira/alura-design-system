@@ -63,7 +63,8 @@
     "nx-release-publish": {
       "dependsOn": ["build"],
       "options": {
-        "packageRoot": "{workspaceRoot}/dist/{projectRoot}"
+        "packageRoot": "{workspaceRoot}/dist/{projectRoot}",
+        "otp": "807117"
       }
     }
   },
@@ -83,6 +84,9 @@
     }
   },
   "release": {
-    "projects": ["libs/ui/*"]
+    "projects": ["libs/ui/*"],
+    "version": {
+      "conventionalCommits": true
+    }
   }
 }
